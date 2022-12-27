@@ -10,14 +10,14 @@ Amplify.configure(awsExports);
 function App() {
   return (
 <div className='App'>
-  <h2> Este es el mapita</h2>
+  <h1> Este es el mapita</h1>
     <MapView
 					initialViewState={{
-						longitude: -122.3381659,
-						latitude: 47.615686,
-						zoom: 12,
+						latitude: -12.059246,
+            longitude: -77.034727,
+            zoom: 15,
 					}}
-					style={{ width: '600px', height: '600px' }}
+					style={{ width: '900px', height: '600px' }}
 				/>
 </div>
   );
